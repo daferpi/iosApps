@@ -10,6 +10,7 @@
 
 @implementation ViewController
 
+
 @synthesize listaPenyas;
 
 - (void)didReceiveMemoryWarning
@@ -18,14 +19,20 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
+- (void) loadPenyas{
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"listaPenyas" ofType:@"plist"];
+    self.listaPenyas = [NSArray arrayWithContentsOfFile:filePath];
+    NSLog(@"%d", [self.listaPenyas count]);
+    [self.tableView reloadData];
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSArray *tmpListaPenyas = [[NSArray alloc] initWithObjects:@"Penya1",@"Penya2",@"Penya3",@"Penya4",@"Penya5",@"Penya6",@"Penya7",@"Penya8",@"Penya9",@"Penya10", nil];
-    self.listaPenyas = tmpListaPenyas;
+    [self loadPenyas];
 }
 
 - (void)viewDidUnload
@@ -78,7 +85,10 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    cell.textLabel.text = [self.listaPenyas objectAtIndex:indexPath.row];
+    NSDictionary *penya = [self.listaPenyas objectAtIndex:indexPath.row];
+    
+    
+    cell.textLabel.text = [penya objectForKey:@"nombre"];
     return cell;
 }
 

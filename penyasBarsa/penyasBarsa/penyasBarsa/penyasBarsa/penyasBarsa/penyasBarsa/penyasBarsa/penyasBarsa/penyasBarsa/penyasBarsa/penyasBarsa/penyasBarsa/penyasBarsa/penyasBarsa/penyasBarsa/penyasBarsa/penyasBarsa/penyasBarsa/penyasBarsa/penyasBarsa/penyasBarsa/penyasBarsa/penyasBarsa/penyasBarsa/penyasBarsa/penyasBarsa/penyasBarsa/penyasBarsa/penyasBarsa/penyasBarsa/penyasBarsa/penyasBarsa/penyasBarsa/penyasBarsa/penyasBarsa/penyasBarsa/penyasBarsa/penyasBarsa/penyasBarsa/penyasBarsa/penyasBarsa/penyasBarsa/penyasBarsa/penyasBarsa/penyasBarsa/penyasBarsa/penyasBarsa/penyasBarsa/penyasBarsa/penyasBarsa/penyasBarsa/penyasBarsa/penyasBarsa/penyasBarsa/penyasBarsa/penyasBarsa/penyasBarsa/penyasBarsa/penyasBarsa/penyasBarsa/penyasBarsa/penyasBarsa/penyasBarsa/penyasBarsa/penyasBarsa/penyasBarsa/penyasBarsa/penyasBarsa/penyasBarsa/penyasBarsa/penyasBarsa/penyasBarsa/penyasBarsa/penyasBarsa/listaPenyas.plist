@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>item1</key>
+	<dict>
+		<key>nombre</key>
+		<string>penya1</string>
+		<key>descripcion</key>
+		<string>descripcion penya1</string>
+		<key>latitude</key>
+		<integer>23</integer>
+		<key>longitude</key>
+		<integer>30</integer>
+	</dict>
+	<key>item2</key>
+	<dict>
+		<key>nombre</key>
+		<string>penya2</string>
+		<key>descripcion</key>
+		<string>descripcion penya2</string>
+		<key>latitude</key>
+		<integer>25</integer>
+		<key>longitude</key>
+		<integer>33</integer>
+	</dict>
+	<key>item3</key>
+	<dict>
+		<key>nombre</key>
+		<string>penya3</string>
+		<key>descripcion</key>
+		<string>descripcion penya3</string>
+		<key>latitude</key>
+		<integer>55</integer>
+		<key>longitude</key>
+		<integer>44</integer>
+	</dict>
+	<key>item4</key>
+	<dict>
+		<key>nombre</key>
+		<string>penya4</string>
+		<key>descripcion</key>
+		<string>descripcion penya4</string>
+		<key>latitude</key>
+		<integer>434</integer>
+		<key>longitude</key>
+		<integer>3434</integer>
+	</dict>
+	<key>item5</key>
+	<dict>
+		<key>nombre</key>
+		<string>penya5</string>
+		<key>descripcion</key>
+		<string>descripcion penya5</string>
+		<key>latitude</key>
+		<integer>3322</integer>
+		<key>longitude</key>
+		<integer>3434</integer>
+	</dict>
+	<key>item6</key>
+	<dict>
+		<key>nombre</key>
+		<string>penya6</string>
+		<key>descripcion</key>
+		<string>descripcion penya6</string>
+		<key>latitude</key>
+		<integer>454</integer>
+		<key>longitude</key>
+		<integer>4556</integer>
+	</dict>
+	<key>item7</key>
+	<dict>
+		<key>nombre</key>
+		<string>penya7</string>
+		<key>descripcion</key>
+		<string>descripcion penya7</string>
+		<key>latitude</key>
+		<integer>2222</integer>
+		<key>longitude</key>
+		<integer>4445</integer>
+	</dict>
+	<key>item8</key>
+	<dict>
+		<key>nombre</key>
+		<string>penya8</string>
+		<key>descripcion</key>
+		<string>descripcion penya8</string>
+		<key>latitude</key>
+		<integer>4556</integer>
+		<key>longitude</key>
+		<integer>6555</integer>
+	</dict>
+	<key>item9</key>
+	<dict>
+		<key>nombre</key>
+		<string>penya9</string>
+		<key>descripcion</key>
+		<string>descripcion penya9</string>
+		<key>latitude</key>
+		<integer>4556</integer>
+		<key>longitude</key>
+		<integer>5556</integer>
+	</dict>
+	<key>item10</key>
+	<dict>
+		<key>nombre</key>
+		<string>penya10</string>
+		<key>descripcion</key>
+		<string>descripcion penya10</string>
+		<key>latitude</key>
+		<integer>2366</integer>
+		<key>longitude</key>
+		<integer>30666</integer>
+	</dict>
+	<key>item11</key>
+	<dict>
+		<key>nombre</key>
+		<string>penya11</string>
+		<key>descripcion</key>
+		<string>descripcion penya11</string>
+		<key>latitude</key>
+		<integer>2311</integer>
+		<key>longitude</key>
+		<integer>3011</integer>
+	</dict>
+	<key>item12</key>
+	<dict>
+		<key>nombre</key>
+		<string>penya12</string>
+		<key>descripcion</key>
+		<string>descripcion penya12</string>
+		<key>latitude</key>
+		<integer>2344</integer>
+		<key>longitude</key>
+		<integer>3044</integer>
+	</dict>
+	<key>item13</key>
+	<dict>
+		<key>nombre</key>
+		<string>penya13</string>
+		<key>descripcion</key>
+		<string>descripcion penya13</string>
+		<key>latitude</key>
+		<integer>3334</integer>
+		<key>longitude</key>
+		<integer>3034</integer>
+	</dict>
+	<key>item14</key>
+	<dict>
+		<key>nombre</key>
+		<string>penya14</string>
+		<key>descripcion</key>
+		<string>descripcion penya14</string>
+		<key>latitude</key>
+		<integer>2344</integer>
+		<key>longitude</key>
+		<integer>3044</integer>
+	</dict>
+</dict>
+</plist>

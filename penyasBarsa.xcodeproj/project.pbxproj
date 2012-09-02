@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BD9BD1015F3F25D00E9325B /* listaPenyas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BD9BD0F15F3F25D00E9325B /* listaPenyas.plist */; };
 		4BE61B9C15EBFD650089D8C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE61B9B15EBFD650089D8C1 /* UIKit.framework */; };
 		4BE61B9E15EBFD650089D8C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE61B9D15EBFD650089D8C1 /* Foundation.framework */; };
 		4BE61BA015EBFD650089D8C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE61B9F15EBFD650089D8C1 /* CoreGraphics.framework */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4BD9BD0F15F3F25D00E9325B /* listaPenyas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = listaPenyas.plist; sourceTree = "<group>"; };
 		4BE61B9715EBFD650089D8C1 /* penyasBarsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = penyasBarsa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE61B9B15EBFD650089D8C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4BE61B9D15EBFD650089D8C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -82,6 +84,7 @@
 				4BE61BAD15EBFD650089D8C1 /* ViewController.h */,
 				4BE61BAE15EBFD650089D8C1 /* ViewController.m */,
 				4BE61BB015EBFD650089D8C1 /* ViewController.xib */,
+				4BD9BD0F15F3F25D00E9325B /* listaPenyas.plist */,
 				4BE61BA215EBFD650089D8C1 /* Supporting Files */,
 			);
 			path = penyasBarsa;
@@ -150,6 +153,7 @@
 			files = (
 				4BE61BA615EBFD650089D8C1 /* InfoPlist.strings in Resources */,
 				4BE61BB215EBFD650089D8C1 /* ViewController.xib in Resources */,
+				4BD9BD1015F3F25D00E9325B /* listaPenyas.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +278,7 @@
 				4BE61BB715EBFD650089D8C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
