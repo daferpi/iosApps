@@ -1,26 +1,347 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	<array>
-		<dict>
-			<key>nombre</key>
-			<string>penya1</string>
-			<key>descripcion</key>
-			<string>descripcion penya1</string>
-			<key>url</key>
-			<string>www.google.es</string>
-			<key>latitude</key>
-			<integer>324</integer>
-			<key>longitude</key>
-			<integer>343</integer>
-		</dict>
-		<dict>
-			<key>nombre</key>
-			<string>penya2</string>
-		</dict>
-		<dict>
-			<key>nombre</key>
-			<string>penya3</string>
-		</dict>
-	</array>
+<array>
+	<dict>
+		<key>nombre</key>
+		<string>PENYA BARCELONISTA LA GRANADA</string>
+		<key>descripcion</key>
+		<string>La Penya Barcelonista de la Granada, setmana rera setmana, va a l&apos;estadi del Camp Nou a presenciar els partits de l&apos;equip Blaugrana. 
+Des de 1981, any en que es va fundar la penya.</string>
+		<key>escudo</key>
+		<string>0002.LaGranada.jpg</string>
+		<key>zona</key>
+		<string>ZONA 8: ANOIA, PENEDÈS I GARRAF</string>
+		<key>direccion</key>
+		<string> Avda.Catalunya,70</string>
+		<key>poblacion</key>
+		<string>LA GRANADA</string>
+		<key>provincia</key>
+		<string>BARCELONA</string>
+		<key>pais</key>
+		<string>ESPAÑA</string>
+		<key>telefono</key>
+		<string>61903132</string>
+		<key>email</key>
+		<string>josep.valles@vodafone.es</string>
+		<key>url</key>
+		<string>http://www.lagranada.com/lapenya.htm</string>
+		<key>latitude</key>
+		<string>41.37552</string>
+		<key>longitude</key>
+		<string>1.720409</string>
+		<key>desaparecido</key>
+		<false/>
+		<key>fundacion</key>
+		<string>1981</string>
+		<key>numeroSocios</key>
+		<string>248</string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>AGRUPACIÓ BARCELONISTA PENYA ANGUERA</string>
+		<key>descripcion</key>
+		<string>Figures com la del Papi Anguera són d’aquelles que sovint passen desapercebudes dins els grans clubs de futbol. Ell va ser l’encarregat de material -i moltes coses més- del primer equip del Barça durant més de 30 anys, a mes de ser com un pare per a molts</string>
+		<key>escudo</key>
+		<string>0001.ABPenyaAnguera.jpg</string>
+		<key>zona</key>
+		<string>ZONA 2: BARCELONA OCCIDENTAL</string>
+		<key>direccion</key>
+		<string>c\Viladomat, 267 bis ·8029</string>
+		<key>poblacion</key>
+		<string>BARCELONA</string>
+		<key>provincia</key>
+		<string>BARCELONA</string>
+		<key>pais</key>
+		<string>ESPAÑA</string>
+		<key>telefono</key>
+		<string>93.321.24.01</string>
+		<key>email</key>
+		<string>pbanguera@telefonica.net</string>
+		<key>url</key>
+		<string>http://www.pbanguera.cat/</string>
+		<key>latitude</key>
+		<string>41.388336</string>
+		<key>longitude</key>
+		<string>2.147814</string>
+		<key>desaparecido</key>
+		<false/>
+		<key>fundacion</key>
+		<string>1957</string>
+		<key>numeroSocios</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>PENYA BARCELONISTA SANT FRUITOS DE BAGES</string>
+		<key>descripcion</key>
+		<string></string>
+		<key>escudo</key>
+		<string>0003.PBSantFruitosBages.jpg</string>
+		<key>zona</key>
+		<string>ZONA 9: BAGES, BERGUEDÀ I CERDANYA</string>
+		<key>direccion</key>
+		<string></string>
+		<key>poblacion</key>
+		<string>SANT FRUITOS DE BAGES</string>
+		<key>provincia</key>
+		<string>BARCELONA</string>
+		<key>pais</key>
+		<string>ESPAÑA</string>
+		<key>telefono</key>
+		<string></string>
+		<key>email</key>
+		<string></string>
+		<key>url</key>
+		<string>http://penyabarcelonista.santfruitosentitats.cat</string>
+		<key>latitude</key>
+		<string></string>
+		<key>longitude</key>
+		<string></string>
+		<key>desaparecido</key>
+		<false/>
+		<key>fundacion</key>
+		<string></string>
+		<key>numeroSocios</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>PENYA BARCELONISTA BARCINO</string>
+		<key>descripcion</key>
+		<string></string>
+		<key>escudo</key>
+		<string>0004.PBBarcino.jpg</string>
+		<key>zona</key>
+		<string>ZONA 1: BARCELONA ORIENTAL</string>
+		<key>direccion</key>
+		<string></string>
+		<key>poblacion</key>
+		<string>BARCELONA</string>
+		<key>provincia</key>
+		<string>BARCELONA</string>
+		<key>pais</key>
+		<string>ESPAÑA</string>
+		<key>telefono</key>
+		<string></string>
+		<key>email</key>
+		<string></string>
+		<key>url</key>
+		<string>http://www.pbbarcino.cat</string>
+		<key>latitude</key>
+		<string></string>
+		<key>longitude</key>
+		<string></string>
+		<key>desaparecido</key>
+		<false/>
+		<key>fundacion</key>
+		<string></string>
+		<key>numeroSocios</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>PENYA BARCELONA BARCELONETA</string>
+		<key>descripcion</key>
+		<string></string>
+		<key>escudo</key>
+		<string>void.png</string>
+		<key>zona</key>
+		<string>ZONA 1: BARCELONA ORIENTAL</string>
+		<key>direccion</key>
+		<string></string>
+		<key>poblacion</key>
+		<string>BARCELONA</string>
+		<key>provincia</key>
+		<string>BARCELONA</string>
+		<key>pais</key>
+		<string>ESPAÑA</string>
+		<key>telefono</key>
+		<string>932683265</string>
+		<key>email</key>
+		<string></string>
+		<key>url</key>
+		<string>http://cfbarceloneta.futbolcatala.com/historia.html</string>
+		<key>latitude</key>
+		<string></string>
+		<key>longitude</key>
+		<string></string>
+		<key>desaparecido</key>
+		<true/>
+		<key>fundacion</key>
+		<string></string>
+		<key>numeroSocios</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>PENYA BARCELONISTA RIPOLLET</string>
+		<key>descripcion</key>
+		<string></string>
+		<key>escudo</key>
+		<string>0006.PBRipollet.jpg</string>
+		<key>zona</key>
+		<string>ZONA 5: VALLÈS OCCIDENTAL</string>
+		<key>direccion</key>
+		<string></string>
+		<key>poblacion</key>
+		<string>RIPOLLET</string>
+		<key>provincia</key>
+		<string>BARCELONA</string>
+		<key>pais</key>
+		<string>ESPAÑA</string>
+		<key>telefono</key>
+		<string></string>
+		<key>email</key>
+		<string></string>
+		<key>url</key>
+		<string>https://www.facebook.com/penya.barcelonistaripollet</string>
+		<key>latitude</key>
+		<string></string>
+		<key>longitude</key>
+		<string></string>
+		<key>desaparecido</key>
+		<false/>
+		<key>fundacion</key>
+		<string></string>
+		<key>numeroSocios</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>UNIO BARCELONISTA CATALONIA</string>
+		<key>descripcion</key>
+		<string></string>
+		<key>escudo</key>
+		<string>0007.UBCatalonia.jpg</string>
+		<key>zona</key>
+		<string>ZONA 2: BARCELONA OCCIDENTAL</string>
+		<key>direccion</key>
+		<string></string>
+		<key>poblacion</key>
+		<string>BARCELONA</string>
+		<key>provincia</key>
+		<string>BARCELONA</string>
+		<key>pais</key>
+		<string>ESPAÑA</string>
+		<key>telefono</key>
+		<string></string>
+		<key>email</key>
+		<string></string>
+		<key>url</key>
+		<string>http://www.cataloniaub.com/</string>
+		<key>latitude</key>
+		<string></string>
+		<key>longitude</key>
+		<string></string>
+		<key>desaparecido</key>
+		<false/>
+		<key>fundacion</key>
+		<string></string>
+		<key>numeroSocios</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>PENYA BARCELONISTA CINC COPES</string>
+		<key>descripcion</key>
+		<string></string>
+		<key>escudo</key>
+		<string>0008.PBCincCopes.jpg</string>
+		<key>zona</key>
+		<string>ZONA 1: BARCELONA ORIENTAL</string>
+		<key>direccion</key>
+		<string></string>
+		<key>poblacion</key>
+		<string>BARCELONA</string>
+		<key>provincia</key>
+		<string>BARCELONA</string>
+		<key>pais</key>
+		<string>ESPAÑA</string>
+		<key>telefono</key>
+		<string></string>
+		<key>email</key>
+		<string></string>
+		<key>url</key>
+		<string>http://www.pbarcelonistacinccopes.com/</string>
+		<key>latitude</key>
+		<string></string>
+		<key>longitude</key>
+		<string></string>
+		<key>desaparecido</key>
+		<false/>
+		<key>fundacion</key>
+		<string></string>
+		<key>numeroSocios</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>A.D.B. COLLBLANC</string>
+		<key>descripcion</key>
+		<string>Sus orígenes se remontan a los años 1956 y 1946 respectivamente, con un mismo objetivo: la práctica del deporte en un momento social complejo de la vida española y catalana, con dificultades para reunirse. Este tipo de asociaciones deportivas era la excusa</string>
+		<key>escudo</key>
+		<string>0010.ADBCollblanc.jpg</string>
+		<key>zona</key>
+		<string>ZONA 2: BARCELONA OCCIDENTAL</string>
+		<key>direccion</key>
+		<string>Pintor Tapiró, 17, baixos08028</string>
+		<key>poblacion</key>
+		<string>BARCELONA</string>
+		<key>provincia</key>
+		<string>BARCELONA</string>
+		<key>pais</key>
+		<string>ESPAÑA</string>
+		<key>telefono</key>
+		<string>93 449 90 63</string>
+		<key>email</key>
+		<string>info@pbcollblancsants.org</string>
+		<key>url</key>
+		<string>http://www.pbcollblancsants.org/</string>
+		<key>latitude</key>
+		<string>41.381832</string>
+		<key>longitude</key>
+		<string>2.119821</string>
+		<key>desaparecido</key>
+		<false/>
+		<key>fundacion</key>
+		<string></string>
+		<key>numeroSocios</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>PENYA BARCELONISTA DE SUECIA</string>
+		<key>descripcion</key>
+		<string></string>
+		<key>escudo</key>
+		<string>0983.PBSuecia.png</string>
+		<key>zona</key>
+		<string>ZONA 35: EL MÓN</string>
+		<key>direccion</key>
+		<string></string>
+		<key>poblacion</key>
+		<string>ESTOCOLMO</string>
+		<key>provincia</key>
+		<string></string>
+		<key>pais</key>
+		<string>SUECIA</string>
+		<key>telefono</key>
+		<string></string>
+		<key>email</key>
+		<string></string>
+		<key>url</key>
+		<string>http://www.penyasuecia.se/</string>
+		<key>latitude</key>
+		<string></string>
+		<key>longitude</key>
+		<string></string>
+		<key>desaparecido</key>
+		<false/>
+		<key>fundacion</key>
+		<string></string>
+		<key>numeroSocios</key>
+		<string></string>
+	</dict>
+</array>
 </plist>

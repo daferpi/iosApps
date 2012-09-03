@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4BD9BD1015F3F25D00E9325B /* listaPenyas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BD9BD0F15F3F25D00E9325B /* listaPenyas.plist */; };
+		4BE1160D15F540BF00855983 /* 0001.ABPenyaAnguera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160315F540BF00855983 /* 0001.ABPenyaAnguera.jpg */; };
+		4BE1160E15F540BF00855983 /* 0002.LaGranada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160415F540BF00855983 /* 0002.LaGranada.jpg */; };
+		4BE1160F15F540BF00855983 /* 0003.PBSantFruitosBages.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160515F540BF00855983 /* 0003.PBSantFruitosBages.jpg */; };
+		4BE1161015F540BF00855983 /* 0004.PBBarcino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160615F540BF00855983 /* 0004.PBBarcino.jpg */; };
+		4BE1161115F540BF00855983 /* 0006.PBRipollet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160715F540BF00855983 /* 0006.PBRipollet.jpg */; };
+		4BE1161215F540BF00855983 /* 0007.UBCatalonia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160815F540BF00855983 /* 0007.UBCatalonia.jpg */; };
+		4BE1161315F540BF00855983 /* 0008.PBCincCopes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160915F540BF00855983 /* 0008.PBCincCopes.jpg */; };
+		4BE1161415F540BF00855983 /* 0010.ADBCollblanc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160A15F540BF00855983 /* 0010.ADBCollblanc.jpg */; };
+		4BE1161515F540BF00855983 /* 0983.PBSuecia.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160B15F540BF00855983 /* 0983.PBSuecia.png */; };
+		4BE1161615F540BF00855983 /* void.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160C15F540BF00855983 /* void.png */; };
 		4BE61B9C15EBFD650089D8C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE61B9B15EBFD650089D8C1 /* UIKit.framework */; };
 		4BE61B9E15EBFD650089D8C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE61B9D15EBFD650089D8C1 /* Foundation.framework */; };
 		4BE61BA015EBFD650089D8C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE61B9F15EBFD650089D8C1 /* CoreGraphics.framework */; };
@@ -20,6 +30,16 @@
 
 /* Begin PBXFileReference section */
 		4BD9BD0F15F3F25D00E9325B /* listaPenyas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = listaPenyas.plist; sourceTree = "<group>"; };
+		4BE1160315F540BF00855983 /* 0001.ABPenyaAnguera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0001.ABPenyaAnguera.jpg; sourceTree = "<group>"; };
+		4BE1160415F540BF00855983 /* 0002.LaGranada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0002.LaGranada.jpg; sourceTree = "<group>"; };
+		4BE1160515F540BF00855983 /* 0003.PBSantFruitosBages.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0003.PBSantFruitosBages.jpg; sourceTree = "<group>"; };
+		4BE1160615F540BF00855983 /* 0004.PBBarcino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0004.PBBarcino.jpg; sourceTree = "<group>"; };
+		4BE1160715F540BF00855983 /* 0006.PBRipollet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0006.PBRipollet.jpg; sourceTree = "<group>"; };
+		4BE1160815F540BF00855983 /* 0007.UBCatalonia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0007.UBCatalonia.jpg; sourceTree = "<group>"; };
+		4BE1160915F540BF00855983 /* 0008.PBCincCopes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0008.PBCincCopes.jpg; sourceTree = "<group>"; };
+		4BE1160A15F540BF00855983 /* 0010.ADBCollblanc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0010.ADBCollblanc.jpg; sourceTree = "<group>"; };
+		4BE1160B15F540BF00855983 /* 0983.PBSuecia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0983.PBSuecia.png; sourceTree = "<group>"; };
+		4BE1160C15F540BF00855983 /* void.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = void.png; sourceTree = "<group>"; };
 		4BE61B9715EBFD650089D8C1 /* penyasBarsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = penyasBarsa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE61B9B15EBFD650089D8C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4BE61B9D15EBFD650089D8C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,6 +69,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BE115A615F5407000855983 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4BE1160315F540BF00855983 /* 0001.ABPenyaAnguera.jpg */,
+				4BE1160415F540BF00855983 /* 0002.LaGranada.jpg */,
+				4BE1160515F540BF00855983 /* 0003.PBSantFruitosBages.jpg */,
+				4BE1160615F540BF00855983 /* 0004.PBBarcino.jpg */,
+				4BE1160715F540BF00855983 /* 0006.PBRipollet.jpg */,
+				4BE1160815F540BF00855983 /* 0007.UBCatalonia.jpg */,
+				4BE1160915F540BF00855983 /* 0008.PBCincCopes.jpg */,
+				4BE1160A15F540BF00855983 /* 0010.ADBCollblanc.jpg */,
+				4BE1160B15F540BF00855983 /* 0983.PBSuecia.png */,
+				4BE1160C15F540BF00855983 /* void.png */,
+				4BD9BD0F15F3F25D00E9325B /* listaPenyas.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		4BE61B8C15EBFD650089D8C1 = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +122,7 @@
 				4BE61BAD15EBFD650089D8C1 /* ViewController.h */,
 				4BE61BAE15EBFD650089D8C1 /* ViewController.m */,
 				4BE61BB015EBFD650089D8C1 /* ViewController.xib */,
-				4BD9BD0F15F3F25D00E9325B /* listaPenyas.plist */,
+				4BE115A615F5407000855983 /* Resources */,
 				4BE61BA215EBFD650089D8C1 /* Supporting Files */,
 			);
 			path = penyasBarsa;
@@ -154,6 +192,16 @@
 				4BE61BA615EBFD650089D8C1 /* InfoPlist.strings in Resources */,
 				4BE61BB215EBFD650089D8C1 /* ViewController.xib in Resources */,
 				4BD9BD1015F3F25D00E9325B /* listaPenyas.plist in Resources */,
+				4BE1160D15F540BF00855983 /* 0001.ABPenyaAnguera.jpg in Resources */,
+				4BE1160E15F540BF00855983 /* 0002.LaGranada.jpg in Resources */,
+				4BE1160F15F540BF00855983 /* 0003.PBSantFruitosBages.jpg in Resources */,
+				4BE1161015F540BF00855983 /* 0004.PBBarcino.jpg in Resources */,
+				4BE1161115F540BF00855983 /* 0006.PBRipollet.jpg in Resources */,
+				4BE1161215F540BF00855983 /* 0007.UBCatalonia.jpg in Resources */,
+				4BE1161315F540BF00855983 /* 0008.PBCincCopes.jpg in Resources */,
+				4BE1161415F540BF00855983 /* 0010.ADBCollblanc.jpg in Resources */,
+				4BE1161515F540BF00855983 /* 0983.PBSuecia.png in Resources */,
+				4BE1161615F540BF00855983 /* void.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
