@@ -7,23 +7,33 @@
 //
 
 #import "AppDelegate.h"
-
 #import "ViewController.h"
+#import "MapKitController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize viewController = _viewController;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+        // Override point for customization after application launch.
+    navigationController = [[UINavigationController alloc]init];
+    viewController = [[UITabBarController alloc] init];
+       
+    ViewController *tableView =  [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    MapKitController *mapKitView =  [[MapKitController alloc] init];
     
-    UINavigationController *nController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
-    self.viewController.title = @"Penyas del Barça";
-    self.window.rootViewController = nController;
+    [navigationController pushViewController:tableView animated:NO];
+    
+    
+    NSArray *viewList = [NSArray arrayWithObjects:tableView, mapKitView, nil];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [viewController setViewControllers:viewList];
+
+    self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

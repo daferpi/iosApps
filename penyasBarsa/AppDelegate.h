@@ -9,11 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @class ViewController;
+@class MapKitController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    UITabBarController *viewController;
+    UINavigationController *navigationController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+
 
 @end
