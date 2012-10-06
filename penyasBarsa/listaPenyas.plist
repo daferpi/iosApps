@@ -9,7 +9,7 @@
 		<string>La Penya Barcelonista de la Granada, setmana rera setmana, va a l&apos;estadi del Camp Nou a presenciar els partits de l&apos;equip Blaugrana. 
 Des de 1981, any en que es va fundar la penya.</string>
 		<key>escudo</key>
-		<string>0002.LaGranada.jpg</string>
+		<string>0002.LaGranada-icon.png</string>
 		<key>zona</key>
 		<string>ZONA 8: ANOIA, PENEDÈS I GARRAF</string>
 		<key>direccion</key>
@@ -43,7 +43,7 @@ Des de 1981, any en que es va fundar la penya.</string>
 		<key>descripcion</key>
 		<string>Figures com la del Papi Anguera són d’aquelles que sovint passen desapercebudes dins els grans clubs de futbol. Ell va ser l’encarregat de material -i moltes coses més- del primer equip del Barça durant més de 30 anys, a mes de ser com un pare per a molts</string>
 		<key>escudo</key>
-		<string>0001.ABPenyaAnguera.jpg</string>
+		<string>0001.ABPenyaAnguera-icon.png</string>
 		<key>zona</key>
 		<string>ZONA 2: BARCELONA OCCIDENTAL</string>
 		<key>direccion</key>
@@ -77,7 +77,7 @@ Des de 1981, any en que es va fundar la penya.</string>
 		<key>descripcion</key>
 		<string></string>
 		<key>escudo</key>
-		<string>0003.PBSantFruitosBages.jpg</string>
+		<string>0003.PBSantFruitosBages-icon.png</string>
 		<key>zona</key>
 		<string>ZONA 9: BAGES, BERGUEDÀ I CERDANYA</string>
 		<key>direccion</key>
@@ -111,7 +111,7 @@ Des de 1981, any en que es va fundar la penya.</string>
 		<key>descripcion</key>
 		<string></string>
 		<key>escudo</key>
-		<string>0004.PBBarcino.jpg</string>
+		<string>0004.PBBarcino-icon.png</string>
 		<key>zona</key>
 		<string>ZONA 1: BARCELONA ORIENTAL</string>
 		<key>direccion</key>
@@ -247,7 +247,7 @@ Des de 1981, any en que es va fundar la penya.</string>
 		<key>descripcion</key>
 		<string></string>
 		<key>escudo</key>
-		<string>0008.PBCincCopes.jpg</string>
+		<string>0008.PBCincCopes-icon.png</string>
 		<key>zona</key>
 		<string>ZONA 1: BARCELONA ORIENTAL</string>
 		<key>direccion</key>
@@ -315,7 +315,7 @@ Des de 1981, any en que es va fundar la penya.</string>
 		<key>descripcion</key>
 		<string></string>
 		<key>escudo</key>
-		<string>0983.PBSuecia.png</string>
+		<string>0983.PBSuecia-icon.png</string>
 		<key>zona</key>
 		<string>ZONA 35: EL MÓN</string>
 		<key>direccion</key>

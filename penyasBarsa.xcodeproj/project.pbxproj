@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B10E1621618855900717F4C /* 0001.ABPenyaAnguera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E1591618855900717F4C /* 0001.ABPenyaAnguera-icon.png */; };
+		4B10E1631618855900717F4C /* 0002.LaGranada-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E15A1618855900717F4C /* 0002.LaGranada-icon.png */; };
+		4B10E1641618855900717F4C /* 0003.PBSantFruitosBages-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E15B1618855900717F4C /* 0003.PBSantFruitosBages-icon.png */; };
+		4B10E1651618855900717F4C /* 0004.PBBarcino-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E15C1618855900717F4C /* 0004.PBBarcino-icon.png */; };
+		4B10E1661618855900717F4C /* 0006.PBRipollet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E15D1618855900717F4C /* 0006.PBRipollet.jpg */; };
+		4B10E1671618855900717F4C /* 0007.UBCatalonia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E15E1618855900717F4C /* 0007.UBCatalonia.jpg */; };
+		4B10E1681618855900717F4C /* 0008.PBCincCopes-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E15F1618855900717F4C /* 0008.PBCincCopes-icon.png */; };
+		4B10E1691618855900717F4C /* 0010.ADBCollblanc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E1601618855900717F4C /* 0010.ADBCollblanc.jpg */; };
+		4B10E16A1618855900717F4C /* 0983.PBSuecia-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E1611618855900717F4C /* 0983.PBSuecia-icon.png */; };
 		4B22C6FA15F6957300A27E4A /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B22C6F815F6957300A27E4A /* TabBarController.m */; };
 		4B22C6FB15F6957300A27E4A /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B22C6F915F6957300A27E4A /* TabBarController.xib */; };
 		4B22C70215F69B0200A27E4A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B22C70115F69B0200A27E4A /* CoreLocation.framework */; };
 		4B22C70415F69B1200A27E4A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B22C70315F69B1200A27E4A /* MapKit.framework */; };
 		4B22C70815F69B7700A27E4A /* MapKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B22C70615F69B7600A27E4A /* MapKitController.m */; };
 		4B22C70915F69B7700A27E4A /* MapKitController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B22C70715F69B7600A27E4A /* MapKitController.xib */; };
+		4BD61A961620383600A52A9C /* MyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61A951620383600A52A9C /* MyLocation.m */; };
 		4BD9BD1015F3F25D00E9325B /* listaPenyas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BD9BD0F15F3F25D00E9325B /* listaPenyas.plist */; };
-		4BE1160D15F540BF00855983 /* 0001.ABPenyaAnguera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160315F540BF00855983 /* 0001.ABPenyaAnguera.jpg */; };
-		4BE1160E15F540BF00855983 /* 0002.LaGranada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160415F540BF00855983 /* 0002.LaGranada.jpg */; };
-		4BE1160F15F540BF00855983 /* 0003.PBSantFruitosBages.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160515F540BF00855983 /* 0003.PBSantFruitosBages.jpg */; };
-		4BE1161015F540BF00855983 /* 0004.PBBarcino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160615F540BF00855983 /* 0004.PBBarcino.jpg */; };
-		4BE1161115F540BF00855983 /* 0006.PBRipollet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160715F540BF00855983 /* 0006.PBRipollet.jpg */; };
-		4BE1161215F540BF00855983 /* 0007.UBCatalonia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160815F540BF00855983 /* 0007.UBCatalonia.jpg */; };
-		4BE1161315F540BF00855983 /* 0008.PBCincCopes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160915F540BF00855983 /* 0008.PBCincCopes.jpg */; };
-		4BE1161415F540BF00855983 /* 0010.ADBCollblanc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160A15F540BF00855983 /* 0010.ADBCollblanc.jpg */; };
-		4BE1161515F540BF00855983 /* 0983.PBSuecia.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160B15F540BF00855983 /* 0983.PBSuecia.png */; };
-		4BE1161615F540BF00855983 /* void.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE1160C15F540BF00855983 /* void.png */; };
 		4BE61B9C15EBFD650089D8C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE61B9B15EBFD650089D8C1 /* UIKit.framework */; };
 		4BE61B9E15EBFD650089D8C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE61B9D15EBFD650089D8C1 /* Foundation.framework */; };
 		4BE61BA015EBFD650089D8C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE61B9F15EBFD650089D8C1 /* CoreGraphics.framework */; };
@@ -35,6 +35,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B10E1591618855900717F4C /* 0001.ABPenyaAnguera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0001.ABPenyaAnguera-icon.png"; sourceTree = "<group>"; };
+		4B10E15A1618855900717F4C /* 0002.LaGranada-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0002.LaGranada-icon.png"; sourceTree = "<group>"; };
+		4B10E15B1618855900717F4C /* 0003.PBSantFruitosBages-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0003.PBSantFruitosBages-icon.png"; sourceTree = "<group>"; };
+		4B10E15C1618855900717F4C /* 0004.PBBarcino-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0004.PBBarcino-icon.png"; sourceTree = "<group>"; };
+		4B10E15D1618855900717F4C /* 0006.PBRipollet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0006.PBRipollet.jpg; sourceTree = "<group>"; };
+		4B10E15E1618855900717F4C /* 0007.UBCatalonia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0007.UBCatalonia.jpg; sourceTree = "<group>"; };
+		4B10E15F1618855900717F4C /* 0008.PBCincCopes-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0008.PBCincCopes-icon.png"; sourceTree = "<group>"; };
+		4B10E1601618855900717F4C /* 0010.ADBCollblanc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0010.ADBCollblanc.jpg; sourceTree = "<group>"; };
+		4B10E1611618855900717F4C /* 0983.PBSuecia-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0983.PBSuecia-icon.png"; sourceTree = "<group>"; };
 		4B22C6F715F6957300A27E4A /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		4B22C6F815F6957300A27E4A /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		4B22C6F915F6957300A27E4A /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
@@ -43,17 +52,9 @@
 		4B22C70515F69B7600A27E4A /* MapKitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapKitController.h; sourceTree = "<group>"; };
 		4B22C70615F69B7600A27E4A /* MapKitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapKitController.m; sourceTree = "<group>"; };
 		4B22C70715F69B7600A27E4A /* MapKitController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapKitController.xib; sourceTree = "<group>"; };
+		4BD61A941620383600A52A9C /* MyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocation.h; sourceTree = "<group>"; };
+		4BD61A951620383600A52A9C /* MyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocation.m; sourceTree = "<group>"; };
 		4BD9BD0F15F3F25D00E9325B /* listaPenyas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = listaPenyas.plist; sourceTree = "<group>"; };
-		4BE1160315F540BF00855983 /* 0001.ABPenyaAnguera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0001.ABPenyaAnguera.jpg; sourceTree = "<group>"; };
-		4BE1160415F540BF00855983 /* 0002.LaGranada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0002.LaGranada.jpg; sourceTree = "<group>"; };
-		4BE1160515F540BF00855983 /* 0003.PBSantFruitosBages.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0003.PBSantFruitosBages.jpg; sourceTree = "<group>"; };
-		4BE1160615F540BF00855983 /* 0004.PBBarcino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0004.PBBarcino.jpg; sourceTree = "<group>"; };
-		4BE1160715F540BF00855983 /* 0006.PBRipollet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0006.PBRipollet.jpg; sourceTree = "<group>"; };
-		4BE1160815F540BF00855983 /* 0007.UBCatalonia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0007.UBCatalonia.jpg; sourceTree = "<group>"; };
-		4BE1160915F540BF00855983 /* 0008.PBCincCopes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0008.PBCincCopes.jpg; sourceTree = "<group>"; };
-		4BE1160A15F540BF00855983 /* 0010.ADBCollblanc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0010.ADBCollblanc.jpg; sourceTree = "<group>"; };
-		4BE1160B15F540BF00855983 /* 0983.PBSuecia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0983.PBSuecia.png; sourceTree = "<group>"; };
-		4BE1160C15F540BF00855983 /* void.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = void.png; sourceTree = "<group>"; };
 		4BE61B9715EBFD650089D8C1 /* penyasBarsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = penyasBarsa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE61B9B15EBFD650089D8C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4BE61B9D15EBFD650089D8C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,16 +89,15 @@
 		4BE115A615F5407000855983 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4BE1160315F540BF00855983 /* 0001.ABPenyaAnguera.jpg */,
-				4BE1160415F540BF00855983 /* 0002.LaGranada.jpg */,
-				4BE1160515F540BF00855983 /* 0003.PBSantFruitosBages.jpg */,
-				4BE1160615F540BF00855983 /* 0004.PBBarcino.jpg */,
-				4BE1160715F540BF00855983 /* 0006.PBRipollet.jpg */,
-				4BE1160815F540BF00855983 /* 0007.UBCatalonia.jpg */,
-				4BE1160915F540BF00855983 /* 0008.PBCincCopes.jpg */,
-				4BE1160A15F540BF00855983 /* 0010.ADBCollblanc.jpg */,
-				4BE1160B15F540BF00855983 /* 0983.PBSuecia.png */,
-				4BE1160C15F540BF00855983 /* void.png */,
+				4B10E1591618855900717F4C /* 0001.ABPenyaAnguera-icon.png */,
+				4B10E15A1618855900717F4C /* 0002.LaGranada-icon.png */,
+				4B10E15B1618855900717F4C /* 0003.PBSantFruitosBages-icon.png */,
+				4B10E15C1618855900717F4C /* 0004.PBBarcino-icon.png */,
+				4B10E15D1618855900717F4C /* 0006.PBRipollet.jpg */,
+				4B10E15E1618855900717F4C /* 0007.UBCatalonia.jpg */,
+				4B10E15F1618855900717F4C /* 0008.PBCincCopes-icon.png */,
+				4B10E1601618855900717F4C /* 0010.ADBCollblanc.jpg */,
+				4B10E1611618855900717F4C /* 0983.PBSuecia-icon.png */,
 				4BD9BD0F15F3F25D00E9325B /* listaPenyas.plist */,
 			);
 			name = Resources;
@@ -146,6 +146,8 @@
 				4B22C70515F69B7600A27E4A /* MapKitController.h */,
 				4B22C70615F69B7600A27E4A /* MapKitController.m */,
 				4B22C70715F69B7600A27E4A /* MapKitController.xib */,
+				4BD61A941620383600A52A9C /* MyLocation.h */,
+				4BD61A951620383600A52A9C /* MyLocation.m */,
 				4BE115A615F5407000855983 /* Resources */,
 				4BE61BA215EBFD650089D8C1 /* Supporting Files */,
 			);
@@ -216,18 +218,17 @@
 				4BE61BA615EBFD650089D8C1 /* InfoPlist.strings in Resources */,
 				4BE61BB215EBFD650089D8C1 /* ViewController.xib in Resources */,
 				4BD9BD1015F3F25D00E9325B /* listaPenyas.plist in Resources */,
-				4BE1160D15F540BF00855983 /* 0001.ABPenyaAnguera.jpg in Resources */,
-				4BE1160E15F540BF00855983 /* 0002.LaGranada.jpg in Resources */,
-				4BE1160F15F540BF00855983 /* 0003.PBSantFruitosBages.jpg in Resources */,
-				4BE1161015F540BF00855983 /* 0004.PBBarcino.jpg in Resources */,
-				4BE1161115F540BF00855983 /* 0006.PBRipollet.jpg in Resources */,
-				4BE1161215F540BF00855983 /* 0007.UBCatalonia.jpg in Resources */,
-				4BE1161315F540BF00855983 /* 0008.PBCincCopes.jpg in Resources */,
-				4BE1161415F540BF00855983 /* 0010.ADBCollblanc.jpg in Resources */,
-				4BE1161515F540BF00855983 /* 0983.PBSuecia.png in Resources */,
-				4BE1161615F540BF00855983 /* void.png in Resources */,
 				4B22C6FB15F6957300A27E4A /* TabBarController.xib in Resources */,
 				4B22C70915F69B7700A27E4A /* MapKitController.xib in Resources */,
+				4B10E1621618855900717F4C /* 0001.ABPenyaAnguera-icon.png in Resources */,
+				4B10E1631618855900717F4C /* 0002.LaGranada-icon.png in Resources */,
+				4B10E1641618855900717F4C /* 0003.PBSantFruitosBages-icon.png in Resources */,
+				4B10E1651618855900717F4C /* 0004.PBBarcino-icon.png in Resources */,
+				4B10E1661618855900717F4C /* 0006.PBRipollet.jpg in Resources */,
+				4B10E1671618855900717F4C /* 0007.UBCatalonia.jpg in Resources */,
+				4B10E1681618855900717F4C /* 0008.PBCincCopes-icon.png in Resources */,
+				4B10E1691618855900717F4C /* 0010.ADBCollblanc.jpg in Resources */,
+				4B10E16A1618855900717F4C /* 0983.PBSuecia-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +244,7 @@
 				4BE61BAF15EBFD650089D8C1 /* ViewController.m in Sources */,
 				4B22C6FA15F6957300A27E4A /* TabBarController.m in Sources */,
 				4B22C70815F69B7700A27E4A /* MapKitController.m in Sources */,
+				4BD61A961620383600A52A9C /* MyLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
