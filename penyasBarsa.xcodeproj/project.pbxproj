@@ -22,6 +22,15 @@
 		4B22C70415F69B1200A27E4A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B22C70315F69B1200A27E4A /* MapKit.framework */; };
 		4B22C70815F69B7700A27E4A /* MapKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B22C70615F69B7600A27E4A /* MapKitController.m */; };
 		4B22C70915F69B7700A27E4A /* MapKitController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B22C70715F69B7600A27E4A /* MapKitController.xib */; };
+		4B426C1A1649A601006CEE92 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B426C191649A601006CEE92 /* CustomCell.xib */; };
+		4B426C1D1649A8B9006CEE92 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B426C1C1649A8B9006CEE92 /* CustomCell.m */; };
+		4B47E7881623F5500009C914 /* FCBPenyes4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B47E7871623F5500009C914 /* FCBPenyes4.png */; };
+		4B47E78A1623F5620009C914 /* FCBPenyes3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B47E7891623F5620009C914 /* FCBPenyes3.png */; };
+		4B4EE98B163425A200343504 /* map-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4EE98A163425A200343504 /* map-pin.png */; };
+		4B4EE98E1634261700343504 /* text-list.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4EE98D1634261700343504 /* text-list.png */; };
+		4B4EE9921634295700343504 /* DetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EE9901634295700343504 /* DetailsController.m */; };
+		4B4EE9931634295700343504 /* DetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4EE9911634295700343504 /* DetailsController.xib */; };
+		4B4EE99516342BAA00343504 /* pin_map_top_icon&16.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4EE99416342BAA00343504 /* pin_map_top_icon&16.png */; };
 		4BD61A961620383600A52A9C /* MyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD61A951620383600A52A9C /* MyLocation.m */; };
 		4BD9BD1015F3F25D00E9325B /* listaPenyas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BD9BD0F15F3F25D00E9325B /* listaPenyas.plist */; };
 		4BE61B9C15EBFD650089D8C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE61B9B15EBFD650089D8C1 /* UIKit.framework */; };
@@ -52,6 +61,17 @@
 		4B22C70515F69B7600A27E4A /* MapKitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapKitController.h; sourceTree = "<group>"; };
 		4B22C70615F69B7600A27E4A /* MapKitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapKitController.m; sourceTree = "<group>"; };
 		4B22C70715F69B7600A27E4A /* MapKitController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapKitController.xib; sourceTree = "<group>"; };
+		4B426C191649A601006CEE92 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		4B426C1B1649A8B9006CEE92 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		4B426C1C1649A8B9006CEE92 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		4B47E7871623F5500009C914 /* FCBPenyes4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FCBPenyes4.png; path = ../FCBPenyes4.png; sourceTree = "<group>"; };
+		4B47E7891623F5620009C914 /* FCBPenyes3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FCBPenyes3.png; path = ../FCBPenyes3.png; sourceTree = "<group>"; };
+		4B4EE98A163425A200343504 /* map-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-pin.png"; sourceTree = "<group>"; };
+		4B4EE98D1634261700343504 /* text-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-list.png"; sourceTree = "<group>"; };
+		4B4EE98F1634295700343504 /* DetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsController.h; sourceTree = "<group>"; };
+		4B4EE9901634295700343504 /* DetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsController.m; sourceTree = "<group>"; };
+		4B4EE9911634295700343504 /* DetailsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsController.xib; sourceTree = "<group>"; };
+		4B4EE99416342BAA00343504 /* pin_map_top_icon&16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin_map_top_icon&16.png"; sourceTree = "<group>"; };
 		4BD61A941620383600A52A9C /* MyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocation.h; sourceTree = "<group>"; };
 		4BD61A951620383600A52A9C /* MyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocation.m; sourceTree = "<group>"; };
 		4BD9BD0F15F3F25D00E9325B /* listaPenyas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = listaPenyas.plist; sourceTree = "<group>"; };
@@ -89,6 +109,11 @@
 		4BE115A615F5407000855983 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4B4EE99416342BAA00343504 /* pin_map_top_icon&16.png */,
+				4B4EE98A163425A200343504 /* map-pin.png */,
+				4B4EE98D1634261700343504 /* text-list.png */,
+				4B47E7891623F5620009C914 /* FCBPenyes3.png */,
+				4B47E7871623F5500009C914 /* FCBPenyes4.png */,
 				4B10E1591618855900717F4C /* 0001.ABPenyaAnguera-icon.png */,
 				4B10E15A1618855900717F4C /* 0002.LaGranada-icon.png */,
 				4B10E15B1618855900717F4C /* 0003.PBSantFruitosBages-icon.png */,
@@ -148,6 +173,12 @@
 				4B22C70715F69B7600A27E4A /* MapKitController.xib */,
 				4BD61A941620383600A52A9C /* MyLocation.h */,
 				4BD61A951620383600A52A9C /* MyLocation.m */,
+				4B4EE98F1634295700343504 /* DetailsController.h */,
+				4B4EE9901634295700343504 /* DetailsController.m */,
+				4B4EE9911634295700343504 /* DetailsController.xib */,
+				4B426C1B1649A8B9006CEE92 /* CustomCell.h */,
+				4B426C1C1649A8B9006CEE92 /* CustomCell.m */,
+				4B426C191649A601006CEE92 /* CustomCell.xib */,
 				4BE115A615F5407000855983 /* Resources */,
 				4BE61BA215EBFD650089D8C1 /* Supporting Files */,
 			);
@@ -229,6 +260,13 @@
 				4B10E1681618855900717F4C /* 0008.PBCincCopes-icon.png in Resources */,
 				4B10E1691618855900717F4C /* 0010.ADBCollblanc.jpg in Resources */,
 				4B10E16A1618855900717F4C /* 0983.PBSuecia-icon.png in Resources */,
+				4B47E7881623F5500009C914 /* FCBPenyes4.png in Resources */,
+				4B47E78A1623F5620009C914 /* FCBPenyes3.png in Resources */,
+				4B4EE98B163425A200343504 /* map-pin.png in Resources */,
+				4B4EE98E1634261700343504 /* text-list.png in Resources */,
+				4B4EE9931634295700343504 /* DetailsController.xib in Resources */,
+				4B4EE99516342BAA00343504 /* pin_map_top_icon&16.png in Resources */,
+				4B426C1A1649A601006CEE92 /* CustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +283,8 @@
 				4B22C6FA15F6957300A27E4A /* TabBarController.m in Sources */,
 				4B22C70815F69B7700A27E4A /* MapKitController.m in Sources */,
 				4BD61A961620383600A52A9C /* MyLocation.m in Sources */,
+				4B4EE9921634295700343504 /* DetailsController.m in Sources */,
+				4B426C1D1649A8B9006CEE92 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

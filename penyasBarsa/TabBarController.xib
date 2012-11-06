@@ -45,6 +45,10 @@
 				<object class="IBUIViewController" key="IBUISelectedViewController" id="263956680">
 					<object class="IBUITabBarItem" key="IBUITabBarItem" id="134967504">
 						<string key="IBUITitle">Map</string>
+						<object class="NSCustomResource" key="IBUIImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">pin_map_top_icon&amp;16.png</string>
+						</object>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
 					<reference key="IBUIParentViewController" ref="298615827"/>
@@ -59,6 +63,10 @@
 					<object class="IBUIViewController" id="386099617">
 						<object class="IBUITabBarItem" key="IBUITabBarItem" id="984326560">
 							<string key="IBUITitle">List</string>
+							<object class="NSCustomResource" key="IBUIImage">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">text-list.png</string>
+							</object>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
 						<reference key="IBUIParentViewController" ref="298615827"/>
@@ -79,8 +87,9 @@
 					<reference key="NSNextKeyView"/>
 					<object class="NSColor" key="IBUIBackgroundColor">
 						<int key="NSColorSpace">3</int>
-						<bytes key="NSWhite">MCAwAA</bytes>
+						<bytes key="NSWhite">MQA</bytes>
 					</object>
+					<bool key="IBUIOpaque">NO</bool>
 					<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				</object>
 			</object>
@@ -192,6 +201,10 @@
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
+		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
+			<string key="pin_map_top_icon&amp;16.png">{16, 16}</string>
+			<string key="text-list.png">{30, 30}</string>
+		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">933</string>
 	</data>
 </archive>

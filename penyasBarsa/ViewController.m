@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DetailsController.h"
 
 @implementation ViewController
 
@@ -99,6 +100,17 @@
     cell.imageView.image =image;
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // Navigation logic may go here. Create and push another view controller.
+    
+    DetailsController *detailViewController = [[DetailsController alloc] initWithNibName:@"DetailsController" bundle:nil];
+    
+    
+     // Pass the selected object to the new view controller.
+    [self presentModalViewController:detailViewController animated:YES];
 }
 
 @end
