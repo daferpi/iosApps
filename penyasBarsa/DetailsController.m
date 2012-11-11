@@ -8,6 +8,7 @@
 
 #import "DetailsController.h"
 #import "CustomCell.h"
+#import "CustomCellMore.h"
 
 @implementation DetailsController
 
@@ -79,7 +80,7 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 1;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -90,28 +91,55 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"CustomCell";
-    
-    CustomCell *cell = (CustomCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"CustomCell"owner:self options:nil];
-        cell = [nib objectAtIndex:0];
-    }
-    
     // esto habra que pasarlo como parametro
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"listaPenyas" ofType:@"plist"];
     NSArray *listaPenyas = [NSArray arrayWithContentsOfFile:filePath];
     
     NSDictionary *penya = [listaPenyas objectAtIndex:indexPath.row];
+
+    if (indexPath.section == 0) {
+        static NSString *CellIdentifier = @"CustomCell";
+        CustomCell *cell = (CustomCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"CustomCell"owner:self options:nil];
+            cell = [nib objectAtIndex:0];
+        }
+        
+        UIImage *image = [UIImage imageNamed:[penya objectForKey:@"escudo"]];
+        cell.nombrePenya.font = [UIFont systemFontOfSize:12];
+        cell.nombrePenya.text = [penya objectForKey:@"nombre"];
+        cell.fundacion.text = [penya objectForKey:@"fundacion"];
+        cell.escudo.image =image;
+        return cell;
+            
+    } else {
+        static NSString *CellIdentifier = @"customCellMore";
+        CustomCellMore *cell = (CustomCellMore *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"customCellMore"owner:self options:nil];
+            cell = [nib objectAtIndex:0];
+        }
+        cell.direccionLbl.text = [penya objectForKey:@"direccion"];
+        cell.poblacionLbl.text = [penya objectForKey:@"poblacion"];
+        cell.provinciaLbl.text = [penya objectForKey:@"provincia"];
+        cell.paisLbl.text = [penya objectForKey:@"pais"];
+        cell.telefonoLbl.text = [penya objectForKey:@"telefono"];
+        cell.webLbl.text = [penya objectForKey:@"url"];
+        cell.emailLbl.text = [penya objectForKey:@"email"];
+        cell.sociosLbl.text = [penya objectForKey:@"numeroSocios"];
+        
+        UIImage *imageFacebook = [UIImage imageNamed:@"facebook_icon&24.png"];
+        UIImage *imageTwitter = [UIImage imageNamed:@"twitter_icon&24.png"];
+        
+        cell.facebookLbl.image =imageFacebook;
+        cell.twitterLbl.image =imageTwitter;
+        
+        
+        return cell;
+    }
+       
     
-    UIImage *image = [UIImage imageNamed:[penya objectForKey:@"escudo"]];
-    
-    cell.nombrePenya.font = [UIFont systemFontOfSize:12];
-    cell.nombrePenya.text = [penya objectForKey:@"nombre"];
-    cell.fundacion.text = [penya objectForKey:@"fundacion"];
-    cell.escudo.image =image;
-    
-    return cell;
+   
 }
 
 /*
@@ -168,7 +196,13 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 78;
+    
+    if (indexPath.section == 0) { 
+        return 99;
+    } else {
+        return 270;
+    }
+    
 }
 
 @end
