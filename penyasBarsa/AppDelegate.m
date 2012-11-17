@@ -10,24 +10,33 @@
 #import "ViewController.h"
 #import "MapKitController.h"
 
+
 @implementation AppDelegate
 
 @synthesize window = _window;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+
 {
-        // Override point for customization after application launch.
-    navigationController = [[UINavigationController alloc]init];
+    //customize components
+    UIImage *tabbarImage = [[UIImage imageNamed:@"bottomTabbar"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    [[UITabBar appearance] setBackgroundImage:tabbarImage];
+    
+    UIImage *navigationImage = [[UIImage imageNamed:@"tittlebar"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    [[UINavigationBar appearance ] setBackgroundImage:navigationImage forBarMetrics:UIBarMetricsDefault];
+    
+    // Override point for customization after application launch.
+    
     viewController = [[UITabBarController alloc] init];
        
     ViewController *tableView =  [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     MapKitController *mapKitView =  [[MapKitController alloc] init];
     
-    [navigationController pushViewController:tableView animated:NO];
+    navigationController = [[UINavigationController alloc]initWithRootViewController:tableView];
+
     
-    
-    NSArray *viewList = [NSArray arrayWithObjects:tableView, mapKitView, nil];
+    NSArray *viewList = [NSArray arrayWithObjects:navigationController, mapKitView, nil];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     

@@ -32,6 +32,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [[self view] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]]];
+
 	// Do any additional setup after loading the view, typically from a nib.
     [self loadPenyas];
 }
@@ -110,7 +112,8 @@
     
     
      // Pass the selected object to the new view controller.
-    [self presentModalViewController:detailViewController animated:YES];
+    [[self navigationController] pushViewController:detailViewController animated:YES];
+    //[self presentModalViewController:detailViewController animated:YES];
 }
 
 @end
