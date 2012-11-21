@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "MapKitController.h"
+#import "TabBarController.h"
+
 
 
 @implementation AppDelegate
@@ -19,6 +21,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 
 {
+    //splash screen time
+    sleep(2);
+    
     //customize components
     UIImage *tabbarImage = [[UIImage imageNamed:@"bottomTabbar"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
     [[UITabBar appearance] setBackgroundImage:tabbarImage];
@@ -28,13 +33,19 @@
     
     // Override point for customization after application launch.
     
-    viewController = [[UITabBarController alloc] init];
+    viewController = [[TabBarController alloc] initWithNibName:@"TabBarController" bundle:nil];
        
     ViewController *tableView =  [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    MapKitController *mapKitView =  [[MapKitController alloc] init];
+    MapKitController *mapKitView =  [[MapKitController alloc] initWithNibName:@"MapKitController" bundle:nil];
     
     navigationController = [[UINavigationController alloc]initWithRootViewController:tableView];
+    
+    navigationController.title = @"";
+    
+    tableView.tabBarItem.image = [UIImage imageNamed:@"text-list.png"];
+    
 
+    mapKitView.tabBarItem.image = [UIImage imageNamed:@"map-pin.png"];
     
     NSArray *viewList = [NSArray arrayWithObjects:navigationController, mapKitView, nil];
     
@@ -72,6 +83,8 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
+    //splash screen time
+    sleep(2);
     /*
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
