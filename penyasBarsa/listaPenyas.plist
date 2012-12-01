@@ -4,14 +4,16 @@
 <array>
 	<dict>
 		<key>nombre</key>
-		<string>PENYA BARCELONISTA LA GRANADA</string>
+		<string>PENYA BARCELONISTA LA GRANADA DEL PENEDES</string>
 		<key>descripcion</key>
 		<string>La Penya Barcelonista de la Granada, setmana rera setmana, va a l&apos;estadi del Camp Nou a presenciar els partits de l&apos;equip Blaugrana. 
 Des de 1981, any en que es va fundar la penya.</string>
 		<key>escudo</key>
 		<string>0002.LaGranada-icon.png</string>
+		<key>idzona</key>
+		<string>8</string>
 		<key>zona</key>
-		<string>ZONA 8: ANOIA, PENEDÈS I GARRAF</string>
+		<string>ANOIA, PENEDÈS I GARRAF</string>
 		<key>direccion</key>
 		<string> Avda.Catalunya,70</string>
 		<key>poblacion</key>
@@ -44,8 +46,10 @@ Des de 1981, any en que es va fundar la penya.</string>
 		<string>Figures com la del Papi Anguera són d’aquelles que sovint passen desapercebudes dins els grans clubs de futbol. Ell va ser l’encarregat de material -i moltes coses més- del primer equip del Barça durant més de 30 anys, a mes de ser com un pare per a molts</string>
 		<key>escudo</key>
 		<string>0001.ABPenyaAnguera-icon.png</string>
+		<key>idzona</key>
+		<string>2</string>
 		<key>zona</key>
-		<string>ZONA 2: BARCELONA OCCIDENTAL</string>
+		<string>BARCELONA OCCIDENTAL</string>
 		<key>direccion</key>
 		<string>c\Viladomat, 267 bis ·8029</string>
 		<key>poblacion</key>
@@ -78,8 +82,10 @@ Des de 1981, any en que es va fundar la penya.</string>
 		<string></string>
 		<key>escudo</key>
 		<string>0003.PBSantFruitosBages-icon.png</string>
+		<key>idzona</key>
+		<string>9</string>
 		<key>zona</key>
-		<string>ZONA 9: BAGES, BERGUEDÀ I CERDANYA</string>
+		<string>BAGES, BERGUEDÀ I CERDANYA</string>
 		<key>direccion</key>
 		<string></string>
 		<key>poblacion</key>
@@ -112,8 +118,10 @@ Des de 1981, any en que es va fundar la penya.</string>
 		<string></string>
 		<key>escudo</key>
 		<string>0004.PBBarcino-icon.png</string>
+		<key>idzona</key>
+		<string>1</string>
 		<key>zona</key>
-		<string>ZONA 1: BARCELONA ORIENTAL</string>
+		<string>BARCELONA ORIENTAL</string>
 		<key>direccion</key>
 		<string></string>
 		<key>poblacion</key>
@@ -146,8 +154,10 @@ Des de 1981, any en que es va fundar la penya.</string>
 		<string></string>
 		<key>escudo</key>
 		<string>void.png</string>
+		<key>idzona</key>
+		<string>1</string>
 		<key>zona</key>
-		<string>ZONA 1: BARCELONA ORIENTAL</string>
+		<string>BARCELONA ORIENTAL</string>
 		<key>direccion</key>
 		<string></string>
 		<key>poblacion</key>
@@ -180,8 +190,10 @@ Des de 1981, any en que es va fundar la penya.</string>
 		<string></string>
 		<key>escudo</key>
 		<string>0006.PBRipollet.jpg</string>
+		<key>idzona</key>
+		<string>5</string>
 		<key>zona</key>
-		<string>ZONA 5: VALLÈS OCCIDENTAL</string>
+		<string>VALLÈS OCCIDENTAL</string>
 		<key>direccion</key>
 		<string></string>
 		<key>poblacion</key>
@@ -214,8 +226,10 @@ Des de 1981, any en que es va fundar la penya.</string>
 		<string></string>
 		<key>escudo</key>
 		<string>0007.UBCatalonia.jpg</string>
+		<key>idzona</key>
+		<string>2</string>
 		<key>zona</key>
-		<string>ZONA 2: BARCELONA OCCIDENTAL</string>
+		<string>BARCELONA OCCIDENTAL</string>
 		<key>direccion</key>
 		<string></string>
 		<key>poblacion</key>
@@ -248,8 +262,10 @@ Des de 1981, any en que es va fundar la penya.</string>
 		<string></string>
 		<key>escudo</key>
 		<string>0008.PBCincCopes-icon.png</string>
+		<key>idzona</key>
+		<string>1</string>
 		<key>zona</key>
-		<string>ZONA 1: BARCELONA ORIENTAL</string>
+		<string>BARCELONA ORIENTAL</string>
 		<key>direccion</key>
 		<string></string>
 		<key>poblacion</key>
@@ -282,8 +298,10 @@ Des de 1981, any en que es va fundar la penya.</string>
 		<string>Sus orígenes se remontan a los años 1956 y 1946 respectivamente, con un mismo objetivo: la práctica del deporte en un momento social complejo de la vida española y catalana, con dificultades para reunirse. Este tipo de asociaciones deportivas era la excusa</string>
 		<key>escudo</key>
 		<string>0010.ADBCollblanc.jpg</string>
+		<key>idzona</key>
+		<string>2</string>
 		<key>zona</key>
-		<string>ZONA 2: BARCELONA OCCIDENTAL</string>
+		<string>BARCELONA OCCIDENTAL</string>
 		<key>direccion</key>
 		<string>Pintor Tapiró, 17, baixos08028</string>
 		<key>poblacion</key>
@@ -316,8 +334,10 @@ Des de 1981, any en que es va fundar la penya.</string>
 		<string></string>
 		<key>escudo</key>
 		<string>0983.PBSuecia-icon.png</string>
+		<key>idzona</key>
+		<string>35</string>
 		<key>zona</key>
-		<string>ZONA 35: EL MÓN</string>
+		<string>EL MÓN</string>
 		<key>direccion</key>
 		<string></string>
 		<key>poblacion</key>

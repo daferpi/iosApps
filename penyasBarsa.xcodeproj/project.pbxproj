@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B056CFF165D6EA6003B65BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B056CFE165D6EA6003B65BC /* Default.png */; };
-		4B10E1621618855900717F4C /* 0001.ABPenyaAnguera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E1591618855900717F4C /* 0001.ABPenyaAnguera-icon.png */; };
-		4B10E1631618855900717F4C /* 0002.LaGranada-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E15A1618855900717F4C /* 0002.LaGranada-icon.png */; };
-		4B10E1641618855900717F4C /* 0003.PBSantFruitosBages-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E15B1618855900717F4C /* 0003.PBSantFruitosBages-icon.png */; };
-		4B10E1651618855900717F4C /* 0004.PBBarcino-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E15C1618855900717F4C /* 0004.PBBarcino-icon.png */; };
-		4B10E1661618855900717F4C /* 0006.PBRipollet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E15D1618855900717F4C /* 0006.PBRipollet.jpg */; };
-		4B10E1671618855900717F4C /* 0007.UBCatalonia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E15E1618855900717F4C /* 0007.UBCatalonia.jpg */; };
-		4B10E1681618855900717F4C /* 0008.PBCincCopes-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E15F1618855900717F4C /* 0008.PBCincCopes-icon.png */; };
-		4B10E1691618855900717F4C /* 0010.ADBCollblanc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E1601618855900717F4C /* 0010.ADBCollblanc.jpg */; };
-		4B10E16A1618855900717F4C /* 0983.PBSuecia-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E1611618855900717F4C /* 0983.PBSuecia-icon.png */; };
+		182A4446166A2982005F3CD9 /* 0001.ABPenyaAnguera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A4434166A2982005F3CD9 /* 0001.ABPenyaAnguera-icon.png */; };
+		182A4447166A2982005F3CD9 /* 0001.ABPenyaAnguera.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A4435166A2982005F3CD9 /* 0001.ABPenyaAnguera.png */; };
+		182A4448166A2982005F3CD9 /* 0002.LaGranada-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A4436166A2982005F3CD9 /* 0002.LaGranada-icon.png */; };
+		182A4449166A2982005F3CD9 /* 0002.LaGranada.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A4437166A2982005F3CD9 /* 0002.LaGranada.png */; };
+		182A444A166A2982005F3CD9 /* 0003.PBSantFruitosBages-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A4438166A2982005F3CD9 /* 0003.PBSantFruitosBages-icon.png */; };
+		182A444B166A2982005F3CD9 /* 0003.PBSantFruitosBages.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A4439166A2982005F3CD9 /* 0003.PBSantFruitosBages.png */; };
+		182A444C166A2982005F3CD9 /* 0004.PBBarcino-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A443A166A2982005F3CD9 /* 0004.PBBarcino-icon.png */; };
+		182A444D166A2982005F3CD9 /* 0004.PBBarcino.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A443B166A2982005F3CD9 /* 0004.PBBarcino.png */; };
+		182A444E166A2982005F3CD9 /* 0006.PBRipollet-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A443C166A2982005F3CD9 /* 0006.PBRipollet-icon.png */; };
+		182A444F166A2982005F3CD9 /* 0006.PBRipollet.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A443D166A2982005F3CD9 /* 0006.PBRipollet.png */; };
+		182A4450166A2982005F3CD9 /* 0007.UBCatalonia-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A443E166A2982005F3CD9 /* 0007.UBCatalonia-icon.png */; };
+		182A4451166A2982005F3CD9 /* 0007.UBCatalonia.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A443F166A2982005F3CD9 /* 0007.UBCatalonia.png */; };
+		182A4452166A2982005F3CD9 /* 0008.PBCincCopes-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A4440166A2982005F3CD9 /* 0008.PBCincCopes-icon.png */; };
+		182A4453166A2982005F3CD9 /* 0008.PBCincCopes.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A4441166A2982005F3CD9 /* 0008.PBCincCopes.png */; };
+		182A4454166A2982005F3CD9 /* 0010.ADBCollblanc-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A4442166A2982005F3CD9 /* 0010.ADBCollblanc-icon.png */; };
+		182A4455166A2982005F3CD9 /* 0010.ADBCollblanc.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A4443166A2982005F3CD9 /* 0010.ADBCollblanc.png */; };
+		182A4456166A2982005F3CD9 /* 0983.PBSuecia-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A4444166A2982005F3CD9 /* 0983.PBSuecia-icon.png */; };
+		182A4457166A2982005F3CD9 /* 0983.PBSuecia.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A4445166A2982005F3CD9 /* 0983.PBSuecia.png */; };
+		186842F0166A255900F6BEA7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 186842EF166A255900F6BEA7 /* Default.png */; };
+		186842F2166A256400F6BEA7 /* Default2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 186842F1166A256400F6BEA7 /* Default2X.png */; };
+		186842F4166A25E700F6BEA7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186842F3166A25E700F6BEA7 /* Default@2x.png */; };
 		4B139865164FBAD400292883 /* facebook_icon&24.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B139864164FBAD400292883 /* facebook_icon&24.png */; };
 		4B139867164FBAEE00292883 /* twitter_icon&24.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B139866164FBAEE00292883 /* twitter_icon&24.png */; };
 		4B22C6FA15F6957300A27E4A /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B22C6F815F6957300A27E4A /* TabBarController.m */; };
@@ -48,23 +59,34 @@
 		4BE61BAC15EBFD650089D8C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE61BAB15EBFD650089D8C1 /* AppDelegate.m */; };
 		4BE61BAF15EBFD650089D8C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE61BAE15EBFD650089D8C1 /* ViewController.m */; };
 		4BE61BB215EBFD650089D8C1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE61BB015EBFD650089D8C1 /* ViewController.xib */; };
-		4BFA64E8165790C8001AED28 /* bottomTabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA64E7165790C8001AED28 /* bottomTabbar@2x.png */; };
+		4BFA64E8165790C8001AED28 /* bottomTabbar@2Xpng in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA64E7165790C8001AED28 /* bottomTabbar@2Xpng */; };
 		4BFA64F316579731001AED28 /* bottomTabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA64F216579731001AED28 /* bottomTabbar.png */; };
 		4BFA64FE1657AAC4001AED28 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA64FC1657AAC4001AED28 /* background.png */; };
 		4BFA64FF1657AAC4001AED28 /* background@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA64FD1657AAC4001AED28 /* background@2X.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B056CFE165D6EA6003B65BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		4B10E1591618855900717F4C /* 0001.ABPenyaAnguera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0001.ABPenyaAnguera-icon.png"; sourceTree = "<group>"; };
-		4B10E15A1618855900717F4C /* 0002.LaGranada-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0002.LaGranada-icon.png"; sourceTree = "<group>"; };
-		4B10E15B1618855900717F4C /* 0003.PBSantFruitosBages-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0003.PBSantFruitosBages-icon.png"; sourceTree = "<group>"; };
-		4B10E15C1618855900717F4C /* 0004.PBBarcino-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0004.PBBarcino-icon.png"; sourceTree = "<group>"; };
-		4B10E15D1618855900717F4C /* 0006.PBRipollet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0006.PBRipollet.jpg; sourceTree = "<group>"; };
-		4B10E15E1618855900717F4C /* 0007.UBCatalonia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0007.UBCatalonia.jpg; sourceTree = "<group>"; };
-		4B10E15F1618855900717F4C /* 0008.PBCincCopes-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0008.PBCincCopes-icon.png"; sourceTree = "<group>"; };
-		4B10E1601618855900717F4C /* 0010.ADBCollblanc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0010.ADBCollblanc.jpg; sourceTree = "<group>"; };
-		4B10E1611618855900717F4C /* 0983.PBSuecia-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0983.PBSuecia-icon.png"; sourceTree = "<group>"; };
+		182A4434166A2982005F3CD9 /* 0001.ABPenyaAnguera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0001.ABPenyaAnguera-icon.png"; sourceTree = "<group>"; };
+		182A4435166A2982005F3CD9 /* 0001.ABPenyaAnguera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0001.ABPenyaAnguera.png; sourceTree = "<group>"; };
+		182A4436166A2982005F3CD9 /* 0002.LaGranada-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0002.LaGranada-icon.png"; sourceTree = "<group>"; };
+		182A4437166A2982005F3CD9 /* 0002.LaGranada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0002.LaGranada.png; sourceTree = "<group>"; };
+		182A4438166A2982005F3CD9 /* 0003.PBSantFruitosBages-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0003.PBSantFruitosBages-icon.png"; sourceTree = "<group>"; };
+		182A4439166A2982005F3CD9 /* 0003.PBSantFruitosBages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0003.PBSantFruitosBages.png; sourceTree = "<group>"; };
+		182A443A166A2982005F3CD9 /* 0004.PBBarcino-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0004.PBBarcino-icon.png"; sourceTree = "<group>"; };
+		182A443B166A2982005F3CD9 /* 0004.PBBarcino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0004.PBBarcino.png; sourceTree = "<group>"; };
+		182A443C166A2982005F3CD9 /* 0006.PBRipollet-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0006.PBRipollet-icon.png"; sourceTree = "<group>"; };
+		182A443D166A2982005F3CD9 /* 0006.PBRipollet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0006.PBRipollet.png; sourceTree = "<group>"; };
+		182A443E166A2982005F3CD9 /* 0007.UBCatalonia-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0007.UBCatalonia-icon.png"; sourceTree = "<group>"; };
+		182A443F166A2982005F3CD9 /* 0007.UBCatalonia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0007.UBCatalonia.png; sourceTree = "<group>"; };
+		182A4440166A2982005F3CD9 /* 0008.PBCincCopes-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0008.PBCincCopes-icon.png"; sourceTree = "<group>"; };
+		182A4441166A2982005F3CD9 /* 0008.PBCincCopes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0008.PBCincCopes.png; sourceTree = "<group>"; };
+		182A4442166A2982005F3CD9 /* 0010.ADBCollblanc-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0010.ADBCollblanc-icon.png"; sourceTree = "<group>"; };
+		182A4443166A2982005F3CD9 /* 0010.ADBCollblanc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0010.ADBCollblanc.png; sourceTree = "<group>"; };
+		182A4444166A2982005F3CD9 /* 0983.PBSuecia-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0983.PBSuecia-icon.png"; sourceTree = "<group>"; };
+		182A4445166A2982005F3CD9 /* 0983.PBSuecia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0983.PBSuecia.png; sourceTree = "<group>"; };
+		186842EF166A255900F6BEA7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		186842F1166A256400F6BEA7 /* Default2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default2X.png; sourceTree = "<group>"; };
+		186842F3166A25E700F6BEA7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4B139864164FBAD400292883 /* facebook_icon&24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook_icon&24.png"; path = "../facebook_icon&24.png"; sourceTree = "<group>"; };
 		4B139866164FBAEE00292883 /* twitter_icon&24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter_icon&24.png"; path = "../twitter_icon&24.png"; sourceTree = "<group>"; };
 		4B22C6F715F6957300A27E4A /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
@@ -107,7 +129,7 @@
 		4BE61BAD15EBFD650089D8C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4BE61BAE15EBFD650089D8C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4BE61BB115EBFD650089D8C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		4BFA64E7165790C8001AED28 /* bottomTabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottomTabbar@2x.png"; sourceTree = "<group>"; };
+		4BFA64E7165790C8001AED28 /* bottomTabbar@2Xpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bottomTabbar@2Xpng"; sourceTree = "<group>"; };
 		4BFA64F216579731001AED28 /* bottomTabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottomTabbar.png; sourceTree = "<group>"; };
 		4BFA64FC1657AAC4001AED28 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		4BFA64FD1657AAC4001AED28 /* background@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2X.png"; sourceTree = "<group>"; };
@@ -132,29 +154,39 @@
 		4BE115A615F5407000855983 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4B056CFE165D6EA6003B65BC /* Default.png */,
+				182A4434166A2982005F3CD9 /* 0001.ABPenyaAnguera-icon.png */,
+				182A4435166A2982005F3CD9 /* 0001.ABPenyaAnguera.png */,
+				182A4436166A2982005F3CD9 /* 0002.LaGranada-icon.png */,
+				182A4437166A2982005F3CD9 /* 0002.LaGranada.png */,
+				182A4438166A2982005F3CD9 /* 0003.PBSantFruitosBages-icon.png */,
+				182A4439166A2982005F3CD9 /* 0003.PBSantFruitosBages.png */,
+				182A443A166A2982005F3CD9 /* 0004.PBBarcino-icon.png */,
+				182A443B166A2982005F3CD9 /* 0004.PBBarcino.png */,
+				182A443C166A2982005F3CD9 /* 0006.PBRipollet-icon.png */,
+				182A443D166A2982005F3CD9 /* 0006.PBRipollet.png */,
+				182A443E166A2982005F3CD9 /* 0007.UBCatalonia-icon.png */,
+				182A443F166A2982005F3CD9 /* 0007.UBCatalonia.png */,
+				182A4440166A2982005F3CD9 /* 0008.PBCincCopes-icon.png */,
+				182A4441166A2982005F3CD9 /* 0008.PBCincCopes.png */,
+				182A4442166A2982005F3CD9 /* 0010.ADBCollblanc-icon.png */,
+				182A4443166A2982005F3CD9 /* 0010.ADBCollblanc.png */,
+				182A4444166A2982005F3CD9 /* 0983.PBSuecia-icon.png */,
+				182A4445166A2982005F3CD9 /* 0983.PBSuecia.png */,
+				186842EF166A255900F6BEA7 /* Default.png */,
+				186842F1166A256400F6BEA7 /* Default2X.png */,
 				4BC581941657B84400E95E06 /* tittlebar.png */,
 				4BC581951657B84400E95E06 /* tittlebar@2X.png */,
 				4BFA64FC1657AAC4001AED28 /* background.png */,
 				4BFA64FD1657AAC4001AED28 /* background@2X.png */,
 				4BFA64F216579731001AED28 /* bottomTabbar.png */,
 				4B139866164FBAEE00292883 /* twitter_icon&24.png */,
-				4BFA64E7165790C8001AED28 /* bottomTabbar@2x.png */,
-				4B139864164FBAD400292883 /* facebook_icon&24.png */,
+				4BFA64E7165790C8001AED28 /* bottomTabbar@2Xpng */,
 				4B4EE99416342BAA00343504 /* pin_map_top_icon&16.png */,
+				4B139864164FBAD400292883 /* facebook_icon&24.png */,
 				4B4EE98A163425A200343504 /* map-pin.png */,
 				4B4EE98D1634261700343504 /* text-list.png */,
 				4B47E7891623F5620009C914 /* FCBPenyes3.png */,
 				4B47E7871623F5500009C914 /* FCBPenyes4.png */,
-				4B10E1591618855900717F4C /* 0001.ABPenyaAnguera-icon.png */,
-				4B10E15A1618855900717F4C /* 0002.LaGranada-icon.png */,
-				4B10E15B1618855900717F4C /* 0003.PBSantFruitosBages-icon.png */,
-				4B10E15C1618855900717F4C /* 0004.PBBarcino-icon.png */,
-				4B10E15D1618855900717F4C /* 0006.PBRipollet.jpg */,
-				4B10E15E1618855900717F4C /* 0007.UBCatalonia.jpg */,
-				4B10E15F1618855900717F4C /* 0008.PBCincCopes-icon.png */,
-				4B10E1601618855900717F4C /* 0010.ADBCollblanc.jpg */,
-				4B10E1611618855900717F4C /* 0983.PBSuecia-icon.png */,
 				4BD9BD0F15F3F25D00E9325B /* listaPenyas.plist */,
 			);
 			name = Resources;
@@ -163,6 +195,7 @@
 		4BE61B8C15EBFD650089D8C1 = {
 			isa = PBXGroup;
 			children = (
+				186842F3166A25E700F6BEA7 /* Default@2x.png */,
 				4BE61BA115EBFD650089D8C1 /* penyasBarsa */,
 				4BE61B9A15EBFD650089D8C1 /* Frameworks */,
 				4BE61B9815EBFD650089D8C1 /* Products */,
@@ -286,15 +319,6 @@
 				4BD9BD1015F3F25D00E9325B /* listaPenyas.plist in Resources */,
 				4B22C6FB15F6957300A27E4A /* TabBarController.xib in Resources */,
 				4B22C70915F69B7700A27E4A /* MapKitController.xib in Resources */,
-				4B10E1621618855900717F4C /* 0001.ABPenyaAnguera-icon.png in Resources */,
-				4B10E1631618855900717F4C /* 0002.LaGranada-icon.png in Resources */,
-				4B10E1641618855900717F4C /* 0003.PBSantFruitosBages-icon.png in Resources */,
-				4B10E1651618855900717F4C /* 0004.PBBarcino-icon.png in Resources */,
-				4B10E1661618855900717F4C /* 0006.PBRipollet.jpg in Resources */,
-				4B10E1671618855900717F4C /* 0007.UBCatalonia.jpg in Resources */,
-				4B10E1681618855900717F4C /* 0008.PBCincCopes-icon.png in Resources */,
-				4B10E1691618855900717F4C /* 0010.ADBCollblanc.jpg in Resources */,
-				4B10E16A1618855900717F4C /* 0983.PBSuecia-icon.png in Resources */,
 				4B47E7881623F5500009C914 /* FCBPenyes4.png in Resources */,
 				4B47E78A1623F5620009C914 /* FCBPenyes3.png in Resources */,
 				4B4EE98B163425A200343504 /* map-pin.png in Resources */,
@@ -305,13 +329,33 @@
 				4B8FFBBB164FABCA00E2D37D /* CustomCellMore.xib in Resources */,
 				4B139865164FBAD400292883 /* facebook_icon&24.png in Resources */,
 				4B139867164FBAEE00292883 /* twitter_icon&24.png in Resources */,
-				4BFA64E8165790C8001AED28 /* bottomTabbar@2x.png in Resources */,
+				4BFA64E8165790C8001AED28 /* bottomTabbar@2Xpng in Resources */,
 				4BFA64F316579731001AED28 /* bottomTabbar.png in Resources */,
 				4BFA64FE1657AAC4001AED28 /* background.png in Resources */,
 				4BFA64FF1657AAC4001AED28 /* background@2X.png in Resources */,
 				4BC581961657B84400E95E06 /* tittlebar.png in Resources */,
 				4BC581971657B84400E95E06 /* tittlebar@2X.png in Resources */,
-				4B056CFF165D6EA6003B65BC /* Default.png in Resources */,
+				186842F0166A255900F6BEA7 /* Default.png in Resources */,
+				186842F2166A256400F6BEA7 /* Default2X.png in Resources */,
+				186842F4166A25E700F6BEA7 /* Default@2x.png in Resources */,
+				182A4446166A2982005F3CD9 /* 0001.ABPenyaAnguera-icon.png in Resources */,
+				182A4447166A2982005F3CD9 /* 0001.ABPenyaAnguera.png in Resources */,
+				182A4448166A2982005F3CD9 /* 0002.LaGranada-icon.png in Resources */,
+				182A4449166A2982005F3CD9 /* 0002.LaGranada.png in Resources */,
+				182A444A166A2982005F3CD9 /* 0003.PBSantFruitosBages-icon.png in Resources */,
+				182A444B166A2982005F3CD9 /* 0003.PBSantFruitosBages.png in Resources */,
+				182A444C166A2982005F3CD9 /* 0004.PBBarcino-icon.png in Resources */,
+				182A444D166A2982005F3CD9 /* 0004.PBBarcino.png in Resources */,
+				182A444E166A2982005F3CD9 /* 0006.PBRipollet-icon.png in Resources */,
+				182A444F166A2982005F3CD9 /* 0006.PBRipollet.png in Resources */,
+				182A4450166A2982005F3CD9 /* 0007.UBCatalonia-icon.png in Resources */,
+				182A4451166A2982005F3CD9 /* 0007.UBCatalonia.png in Resources */,
+				182A4452166A2982005F3CD9 /* 0008.PBCincCopes-icon.png in Resources */,
+				182A4453166A2982005F3CD9 /* 0008.PBCincCopes.png in Resources */,
+				182A4454166A2982005F3CD9 /* 0010.ADBCollblanc-icon.png in Resources */,
+				182A4455166A2982005F3CD9 /* 0010.ADBCollblanc.png in Resources */,
+				182A4456166A2982005F3CD9 /* 0983.PBSuecia-icon.png in Resources */,
+				182A4457166A2982005F3CD9 /* 0983.PBSuecia.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

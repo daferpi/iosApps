@@ -32,7 +32,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [[self view] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]]];
+    //[[self view] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]]];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]];
 
 	// Do any additional setup after loading the view, typically from a nib.
     [self loadPenyas];
@@ -84,6 +85,16 @@
     return [self.listaPenyas count];
 }
 
+//reescalado de imagenes
+- (UIImage *)scale:(UIImage *)image toSize:(CGSize)size
+{
+    UIGraphicsBeginImageContextWithOptions(size,NO,0.0);
+    [image drawInRect:CGRectMake(0, 0, size.width, size.height)];
+    UIImage *scaledImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return scaledImage;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     static NSString *CellIdentifier = @"Cell";
@@ -96,13 +107,19 @@
     
     UIImage *image = [UIImage imageNamed:[penya objectForKey:@"escudo"]];
     
+    UIImage *scaledImage = [self scale:image toSize:CGSizeMake(60, 60)];
+    
     cell.textLabel.font = [UIFont systemFontOfSize:12];
     cell.textLabel.text = [penya objectForKey:@"nombre"];
-    cell.detailTextLabel.text = [penya objectForKey:@"url"];
-    cell.imageView.image =image;
+    cell.detailTextLabel.font = [UIFont systemFontOfSize:10];
+    cell.detailTextLabel.text = [penya objectForKey:@"zona"];
+    
+    cell.imageView.image =scaledImage;
     
     return cell;
 }
+
+
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {

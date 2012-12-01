@@ -34,7 +34,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [[self view] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]]];
+    //[[self view] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]]];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -106,18 +107,19 @@
             cell = [nib objectAtIndex:0];
         }
         
+        
         UIImage *image = [UIImage imageNamed:[penya objectForKey:@"escudo"]];
-        cell.nombrePenya.font = [UIFont systemFontOfSize:12];
+        //cell.nombrePenya.font = [UIFont systemFontOfSize:30];
         cell.nombrePenya.text = [penya objectForKey:@"nombre"];
         cell.fundacion.text = [penya objectForKey:@"fundacion"];
         cell.escudo.image =image;
         return cell;
             
     } else {
-        static NSString *CellIdentifier = @"customCellMore";
+        static NSString *CellIdentifier = @"CustomCellMore";
         CustomCellMore *cell = (CustomCellMore *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
         if (cell == nil) {
-            NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"customCellMore"owner:self options:nil];
+            NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"CustomCellMore"owner:self options:nil];
             cell = [nib objectAtIndex:0];
         }
         cell.direccionLbl.text = [penya objectForKey:@"direccion"];
@@ -199,7 +201,7 @@
 {
     
     if (indexPath.section == 0) { 
-        return 99;
+        return 150;
     } else {
         return 270;
     }
