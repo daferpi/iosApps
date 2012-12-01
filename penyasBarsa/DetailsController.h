@@ -10,4 +10,6 @@
 
 @interface DetailsController : UITableViewController
 
+@property (nonatomic, assign) NSInteger indexSelected;
+
 @end

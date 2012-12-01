@@ -12,6 +12,8 @@
 
 @implementation DetailsController
 
+@synthesize indexSelected = _indexSelected;
+
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -47,6 +49,7 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    self.indexSelected = 0;
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
@@ -97,7 +100,7 @@
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"listaPenyas" ofType:@"plist"];
     NSArray *listaPenyas = [NSArray arrayWithContentsOfFile:filePath];
     
-    NSDictionary *penya = [listaPenyas objectAtIndex:indexPath.row];
+    NSDictionary *penya = [listaPenyas objectAtIndex:self.indexSelected];
 
     if (indexPath.section == 0) {
         static NSString *CellIdentifier = @"CustomCell";
